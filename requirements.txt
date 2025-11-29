@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+librosa
+madmom
+pandas
+tqdm
+scikit-learn
+transforms3d
+
+

@@ -1,0 +1,145 @@
+HIERARCHY
+ROOT Pelvis
+{
+  OFFSET 0 98 0
+  CHANNELS 6 Xposition Yposition Zposition Zrotation Xrotation Yrotation
+  JOINT Left_hip
+  {
+    OFFSET 5.85814 -8.228 -1.76641
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT Left_knee
+    {
+      OFFSET 4.34514 -38.6469 0.8037
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT Left_ankle
+      {
+        OFFSET -1.47903 -42.6874 -3.7428
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT Left_foot
+        {
+          OFFSET 4.10544 -6.02859 12.2042
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          End Site
+          {
+            OFFSET 0 0 0
+          }
+        }
+      }
+    }
+  }
+  JOINT Right_hip
+  {
+    OFFSET -6.03097 -9.05133 -1.35425
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT Right_knee
+    {
+      OFFSET -4.32566 -38.3688 -0.484304
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT Right_ankle
+      {
+        OFFSET 1.90555 -42.0046 -3.45617
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT Right_foot
+        {
+          OFFSET -3.48399 -6.21055 13.0323
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          End Site
+          {
+            OFFSET 0 0 0
+          }
+        }
+      }
+    }
+  }
+  JOINT Spine1
+  {
+    OFFSET 0.443945 12.4404 0.16148
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT Spine2
+    {
+      OFFSET 0.448844 13.7956 -0.31797
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT Spine3
+      {
+        OFFSET -0.226458 5.60324 0.285504
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT Neck
+        {
+          OFFSET -1.33902 21.1636 -1.34676
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT Head
+          {
+            OFFSET 1.01132 8.89373 5.04099
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            End Site
+            {
+              OFFSET 0 0 0
+            }
+          }
+        }
+        JOINT Left_collar
+        {
+          OFFSET 7.17025 11.4 -1.88982
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT Left_shoulder
+          {
+            OFFSET 12.2921 4.52051 -1.9046
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT Left_elbow
+            {
+              OFFSET 25.5332 -1.5649 -2.29465
+              CHANNELS 3 Zrotation Xrotation Yrotation
+              JOINT Left_wrist
+              {
+                OFFSET 26.5709 1.26981 -0.737473
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT Left_palm
+                {
+                  OFFSET 8.66905 -1.0636 -1.55943
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 0 0 0
+                  }
+                }
+              }
+            }
+          }
+        }
+        JOINT Right_collar
+        {
+          OFFSET -8.29537 11.2472 -2.37074
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT Right_shoulder
+          {
+            OFFSET -11.3228 4.68533 -0.847207
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT Right_elbow
+            {
+              OFFSET -26.0127 -1.43693 -3.12687
+              CHANNELS 3 Zrotation Xrotation Yrotation
+              JOINT Right_wrist
+              {
+                OFFSET -26.9108 0.679371 -0.602676
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT Right_palm
+                {
+                  OFFSET -8.87537 -0.865157 -1.01071
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 0 0 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+MOTION
+Frames:	1
+Frame Time:	0.00833333
+0 98 0 0 0 -0 0 0 -0 0 0 -0 0 0 -20 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 -0 -30 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 0 0 -0 
