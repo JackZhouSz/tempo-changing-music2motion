@@ -235,8 +235,8 @@ Beat positions and tempo are estimated using **Madmom** (DBN beat tracker + RNN 
   - Implemented in `tempo_features/global_tempo_features.py` (based on `extract_musicfea37_tempoChanges.py`),
   - Extract baseline audio features on a fixed hop length (e.g., Librosa),
   - Compute beat times with Madmom, then instantaneous BPM and ΔBPM per beat segment:
-    - \( \mathrm{BPM}_k = 60 / \Delta t_k \),
-    - \( \Delta\mathrm{BPM}_k = \mathrm{BPM}_k - \mathrm{BPM}_{k-1} \),
+    - `BPM_k = 60 / Δt_k`
+    - `ΔBPM_k = BPM_k - BPM_{k-1}`
   - Linearly interpolate tempo and Δtempo onto the audio feature frame grid,
   - Used in the paper when integrating tempo‑changing features into existing models on datasets such as AIST++ and FineDance.
 
