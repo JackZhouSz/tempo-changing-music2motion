@@ -1,4 +1,9 @@
-## JoruriPuppet: Learning Tempo‑Changing Mechanisms Beyond the Beat for Music‑to‑Motion Generation with Expressive Metrics
+# JoruriPuppet: Learning Tempo-Changing Mechanisms Beyond the Beat for Music-to-Motion Generation with Expressive Metrics
+
+This repository accompanies **SIGGRAPH Asia 2025** and provides:
+- **SMPL-based** motion capture / dataset processing pipeline
+- **Tempo-changing** music features for music-to-motion
+- **Expressive motion metrics** (Jo–Ha–Kyu, S-curve, Head–Hand Contrast)
 
 ![Representative Image](asset/Representative_Image.jpg)
 
